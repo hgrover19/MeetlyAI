@@ -175,8 +175,8 @@ def send_email_with_pdfs(recipients, subject, body, pdf_paths, email_user, email
         print(f"Failed to send email: {e}")
 
 # Usage example
-email_user = "meetly.ai.automated@gmail.com"  # Your email
-email_password = "pssd wtcj krjr tuds"  # Your email password or app password
+email_user = "EMAIL"  # Your email
+email_password = "PASSWORD"  # Your email password or app password
 recipients = ["hgrover1904@gmail.com"]  # List of recipients
 subject = "Meeting Summaries"
 body = "Please find attached the meeting summary PDFs."
